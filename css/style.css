@@ -1,0 +1,38 @@
+html, body{
+	font-family: 'Source Sans Pro', sans-serif !important;
+	background:url('') no-repeat center center fixed;
+	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+	-o-background-size: cover;
+  background-size: cover;
+}
+.ko-logo {
+	margin:20px auto 0 auto;
+	padding:10px 0;
+}
+.ko-header {
+	background: url('') no-repeat center center fixed;
+	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+	-o-background-size: cover;
+  background-size: cover;
+}
+.ko-content {
+	background:#fff;
+	padding: 20px 0;
+}
+.ko-description {
+	color:#6B7D8F;
+	font-size: 48px;
+	padding:8px;
+	margin: 30px 0;
+}
+.size-48 {
+	font-size:48px;
+}
+.size-24 {
+	font-size:24px;
+}
+.ko-sign-up {
+	margin:30px 0;
+}
