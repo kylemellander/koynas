@@ -5,19 +5,40 @@ html, body{
  	-moz-background-size: cover;
 	-o-background-size: cover;
   background-size: cover;
+	padding-top:50px;
 }
+/* Top Menu */
+.ko-menu a {
+	color:#fff;
+}
+.ko-menu .logo {
+	max-height:25px;
+}
+.ko-nav-small {
+	display:none;
+	margin-top:8px;
+}
+@media (max-width:768px) {
+	.ko-nav-full {display:none;}
+	.ko-nav-small {display:inline-block;}
+}
+/* Frontpage Logo */
 .ko-logo {
 	margin:20px auto 0 auto;
 	padding:10px 0;
 }
-.ko-header {
+/*.ko-header {
 	background: url('') no-repeat center center fixed;
 	-webkit-background-size: cover;
  	-moz-background-size: cover;
 	-o-background-size: cover;
   background-size: cover;
-}
+}*/
+/* Main Content */
 .ko-content {
 	background:#fff;
-	padding: 20px 0;
+}
+/* Footer */
+.ko-footer {
+
 }
