@@ -1,5 +1,6 @@
 html, body{
 	font-family: 'Source Sans Pro', sans-serif !important;
+	font-size:1.2em;
 	background:url('../img/bg.jpg') no-repeat center center fixed;
 	-webkit-background-size: cover;
  	-moz-background-size: cover;
@@ -7,16 +8,31 @@ html, body{
   background-size: cover;
 	padding-top:50px;
 }
+.ko-hide {
+	display:none;
+}
 /* Top Menu */
+.ko-menu {
+	font-family:'Poppins', sans-serif !important;
+}
+.ko-menu nav {
+	height:70px;
+}
+.ko-menu-subtext{
+	font-size:.5em;
+}
 .ko-menu a {
 	color:#fff;
 }
 .ko-menu .logo {
-	max-height:25px;
+	max-height:40px;
 }
 .ko-nav-small {
 	display:none;
 	margin-top:8px;
+}
+.ko-nav-full {
+	float:right;
 }
 @media (max-width:768px) {
 	.ko-nav-full {display:none;}
