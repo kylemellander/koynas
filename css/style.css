@@ -11,7 +11,28 @@ html, body{
 .ko-hide {
 	display:none;
 }
-/* Top Menu */
+/* Heading Formating */
+.ko-subtitle h1, .ko-content h1{
+	font-family: 'Roboto', sans-serif;
+	color:#111;
+	font-size:2.5em;
+}
+.ko-content h2 {
+	font-family: 'Roboto', sans-serif;
+	color:#111;
+	font-size:2em;
+	margin-left: 25px;
+}
+.ko-h2-p {
+	margin-left:25px;
+}
+.ko-content h2 span {
+	font-size:.7em;
+	margin-right:10px;
+	color:#333;
+}
+/*
+color:#111; Top Menu */
 .ko-menu {
 	font-family:'Poppins', sans-serif !important;
 }
@@ -20,9 +41,6 @@ html, body{
 }
 .ko-menu-subtext{
 	font-size:.5em;
-}
-.ko-menu a {
-	color:#fff;
 }
 .ko-menu .logo {
 	max-height:40px;
@@ -39,17 +57,14 @@ html, body{
 	.ko-nav-full {display:none;}
 	.ko-nav-small {display:inline-block;}
 }
+.ko-nav-full a:hover {
+	color:#111 !important;
+}
 /* Frontpage Logo */
 .ko-logo {
 	margin:20px auto 0 auto;
 	padding:10px 0;
 }
-.ko-subtitle h1{
-	font-family: 'Roboto', sans-serif;
-	color:#666;
-	font-size:2.5em;
-}
-
 /* Main Content */
 .ko-content {
 	margin-top:140px;
