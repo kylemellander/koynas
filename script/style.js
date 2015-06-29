@@ -1,5 +1,5 @@
 // Create the dropdown base
-$('<div class="btn-group ko-nav-small"><button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-align-justify"></span><span class="caret"></span></button><ul class="dropdown-menu">').appendTo("nav div");
+$('<div class="btn-group ko-nav-small"><button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-align-justify"></span><span class="caret"></span></button><ul class="dropdown-menu dropdown-menu-right">').appendTo("nav div");
 
 // Populate dropdown with menu items
 $(".ko-nav-full a").each(function() {

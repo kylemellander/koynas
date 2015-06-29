@@ -29,7 +29,8 @@ html, body{
 }
 .ko-nav-small {
 	display:none;
-	margin-top:8px;
+	margin-top:18px;
+	float:right;
 }
 .ko-nav-full {
 	float:right;
@@ -43,18 +44,26 @@ html, body{
 	margin:20px auto 0 auto;
 	padding:10px 0;
 }
-/*.ko-header {
-	background: url('') no-repeat center center fixed;
-	-webkit-background-size: cover;
- 	-moz-background-size: cover;
-	-o-background-size: cover;
-  background-size: cover;
-}*/
+.ko-subtitle h1{
+	font-family: 'Roboto', sans-serif;
+	color:#666;
+	font-size:2.5em;
+}
+
 /* Main Content */
 .ko-content {
+	margin-top:140px;
 	background:#fff;
+}
+.ko-article {
+	margin:14px;
 }
 /* Footer */
 .ko-footer {
-
+	font-size:.7em;
+	margin-bottom: 10px;
+}
+.ko-footer p {
+	margin:2px 0 0 0;
+	padding:0;
 }
